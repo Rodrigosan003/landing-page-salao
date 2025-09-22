@@ -218,3 +218,9 @@ html {
   transform: translateY(-10px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+
+.testimonials {
+  height: 100vh;
+  background: var(--second-background);
+  padding: 5rem 0 10rem 0;
+}
