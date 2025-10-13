@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -51,17 +50,17 @@ html {
 }
 
 .nav-links li a {
+  font-family: Dm sans, sans-serif;
   font-size: 1rem;
   text-decoration: none;
   color: var(--dark);
   font-weight: 500;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 
 .nav-links li a:hover,
 .nav-links a.active {
   color: var(--primary-color);
-  font-weight: 600;
   border-bottom: 2px solid var(--primary-color);
   padding-bottom: 1.7rem;
 }
@@ -93,6 +92,7 @@ html {
 }
 
 .home-text h1 {
+  font-family: Poppins, sans-serif;
   font-size: 2.3rem;
   font-weight: 700;
   color: var(--dark);
@@ -100,6 +100,7 @@ html {
 }
 
 .home-text p {
+  font-family: Dm sans, sans-serif;
   font-size: 1rem;
   color: var(--gray);
   margin-bottom: 1.5rem;
@@ -112,6 +113,7 @@ html {
   color: var(--second-background);
   border: none;
   border-radius: 0.375rem;
+  font-family: Dm sans, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -141,6 +143,7 @@ html {
 }
 
 .about-text h2 {
+  font-family: Poppins, sans-serif;
   font-size: 2.25rem;
   font-weight: 700;
   color: var(--dark);
@@ -148,6 +151,7 @@ html {
 }
 
 .about-text p {
+  font-family: Dm sans, sans-serif;
   font-size: 1rem;
   color: var(--gray);
   line-height: 1.5;
@@ -161,6 +165,7 @@ html {
   color: var(--second-background);
   border: none;
   border-radius: 0.375rem;
+  font-family: Dm sans, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -171,13 +176,13 @@ html {
 }
 
 .services {
-  height: 100vh;
   background: var(--first-background);
   padding: 5rem 0 10rem 0;
 }
 
 .services h2 {
   text-align: center;
+  font-family: Poppins, sans-serif;
   font-size: 2.25rem;
   font-weight: 700;
   color: var(--dark);
@@ -188,9 +193,11 @@ html {
   max-width: 32.6875rem;
   margin: 0 auto;
   text-align: center;
+  font-family: Dm sans, sans-serif;
   font-size: 1.125rem;
   color: var(--gray);
   line-height: 1.5;
+  margin-bottom: 4rem;
 }
 
 .services-container {
@@ -204,11 +211,13 @@ html {
 }
 
 .service {
+  height: 22rem;
+  width: 22rem;
   background: var(--second-background);
   border-radius: 0.5rem;
   border-bottom: 5px solid var(--primary-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  padding: 3.625rem 3rem;
   text-align: center;
   flex: 1;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -219,16 +228,38 @@ html {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+.service img {
+  height: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.service h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.75rem;
+}
+
+.service p {
+  width: 16rem;
+  font-family: Dm sans, sans-serif;
+  font-size: 1rem;
+  color: var(--gray);
+  line-height: 1.5;
+}
+
 .testimonials {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   background: var(--second-background);
-  padding: 5rem 0 10rem 0;
+  padding: 10rem 7.6875rem 10rem 7.6875rem;
 }
 
 .testimonials h2 {
   max-width: 30.0625rem;
   text-align: center;
+  font-family: Poppins, sans-serif;
   font-size: 2.25rem;
   font-weight: 700;
   color: var(--dark);
@@ -254,6 +285,8 @@ html {
 
 .testimonial p {
   max-width: 27.5rem;
+  font-family: Dm sans, sans-serif;
+  font-weight: regular;
   font-size: 1rem;
   color: var(--dark);
   line-height: 1.5;
