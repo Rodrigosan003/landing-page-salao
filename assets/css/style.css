@@ -342,7 +342,28 @@ html {
   height: 100vh;
   width: 100%;
   background: var(--first-background);
+  padding: 0 19.3125rem 0 7.6875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.contact h2 {
+  font-size: 2.25rem;
+  font-family: Poppins;
+  font-weight: 700;
+  color: var(--dark);
+  width: 25.25rem;
+}
+
+.contact .contact-text p {
+  font-size: 1rem;
+  font-family: Dm sans, sans-serif;
+  width: 22.75rem;
 }
