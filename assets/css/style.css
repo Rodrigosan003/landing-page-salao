@@ -30,19 +30,22 @@ html {
   top: 0;
   left: 0;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header .content {
+  width: 100%;
   padding: 0 123px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo a {
+.logo img {
   height: 25px;
   width: 164px;
-  display: none;
 }
 
 .nav-bar ul {
