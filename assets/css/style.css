@@ -72,6 +72,43 @@ html {
   padding-bottom: 24px;
 }
 
-h1 {
-  padding-top: 90px;
+/* Sessão Início */ 
+
+.main {
+  height: 100dvh;
+  width: 100%;
+  background: var(--first-background);
+}
+
+.main .content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 123px;
+}
+
+.home-text h1 {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--dark);
+  width: 396px;
+}
+
+.home-text p {
+  font-family: var(--DM-Sans);
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--gray);
+  width: 347px;
+}
+
+.home-text button {
+  height: 50px;
+  width: 218px;
+  border: none;
+  border-radius: 4px;
+  background: var(--primary-color);
 }
