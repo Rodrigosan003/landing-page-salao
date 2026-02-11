@@ -81,6 +81,7 @@ html {
 }
 
 .main .content {
+  padding-top: 84px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -95,6 +96,7 @@ html {
   font-weight: 700;
   color: var(--dark);
   width: 396px;
+  padding-bottom: 12px;
 }
 
 .home-text p {
@@ -103,12 +105,64 @@ html {
   font-weight: normal;
   color: var(--gray);
   width: 347px;
+  padding-bottom: 38px;
 }
 
-.home-text button {
-  height: 50px;
-  width: 218px;
-  border: none;
+.home-text a {
+  font-family: var(--DM-Sans);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 32px;
+  border: 2px solid var(--primary-color);
   border-radius: 4px;
   background: var(--primary-color);
+  color: var(--first-background);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.home-text a:hover {
+  background: var(--first-background);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.image img {
+  height: 443px;
+  width: 658px;
+}
+
+.about {
+  height: 100dvh;
+  width: 100%;
+  background: var(--second-background);
+}
+
+.about .content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-img img {
+  height: 446px;
+}
+
+.about-txt h2 {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-bottom: 12px;
+}
+
+.about-txt p {
+  font-family: var(--DM-Sans);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+  width: 610px;
+  padding-right: 121px;
 }
