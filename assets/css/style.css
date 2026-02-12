@@ -75,8 +75,9 @@ html {
 /* Sessão Início */ 
 
 .main {
-  height: 100dvh;
+  height: 100%;
   width: 100%;
+  padding-top: 156px 0 172px;
   background: var(--first-background);
 }
 
@@ -168,6 +169,7 @@ html {
 }
 
 .services {
+  padding: 0 123px 160px 123px;
   background: var(--first-background);
 }
 
@@ -195,4 +197,54 @@ html {
 .services p span {
   font-weight: 700;
   color: var(--primary-color);
+}
+
+.services .content {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.service-card {
+  height: 352px;
+  width: 352px;
+  background: var(--second-background);
+  border-radius: 5px;
+  border-bottom: 5px solid var(--primary-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  padding: 58px 48px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+  height: 80px;
+  width: 80px;
+  padding-bottom: 24px;
+}
+
+.service-card h3 {
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-bottom: 12px;
+}
+
+.service-card p {
+  font-family: var(--DM-Sans);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 256px;
 }
