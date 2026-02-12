@@ -166,3 +166,33 @@ html {
   width: 610px;
   padding-right: 121px;
 }
+
+.services {
+  background: var(--first-background);
+}
+
+.services h2 {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--dark);
+  padding: 160px 0 12px 0;
+  text-align: center;
+}
+
+.services p {
+  font-family: var(--DM-Sans);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dark);
+  width: 523px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.services p span {
+  font-weight: 700;
+  color: var(--primary-color);
+}
