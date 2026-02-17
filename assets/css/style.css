@@ -347,3 +347,39 @@ html {
   background: var(--first-background);
   padding: 160px 309px 160px 123px;
 }
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-text {
+  width: 404px;
+}
+
+.contact-text h2 {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-bottom: 12px;
+}
+
+.contact-text p {
+  width: 364px;
+  font-family: var(--DM-Sans);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--gray);
+  padding-bottom: 24px;
+}
+
+.contact-text a {
+  padding: 14px 32px 15px 32px;
+  background: var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--first-background);
+  text-align: center;
+}
