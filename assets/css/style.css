@@ -342,3 +342,8 @@ html {
 .dots-check {
   background: var(--primary-color);
 }
+
+.contact {
+  background: var(--first-background);
+  padding: 160px 309px 160px 123px;
+}
