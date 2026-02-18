@@ -376,10 +376,14 @@ html {
 }
 
 .contact-text a {
+  width: 236px;
   padding: 14px 32px 15px 32px;
   background: var(--primary-color);
   border-radius: 5px;
   text-decoration: none;
   color: var(--first-background);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
