@@ -387,3 +387,30 @@ html {
   align-items: center;
   justify-content: space-around;
 }
+
+.contact-address {
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.address-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.address-item p {
+  font-family: var(--DM-Sans);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.footer {
+  background: var(--primary-color);
+  height: 237px;
+  width: 100%;
+  padding: 0 122px 0 123px;
+}
