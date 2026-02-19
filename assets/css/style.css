@@ -413,4 +413,29 @@ html {
   height: 237px;
   width: 100%;
   padding: 0 122px 0 123px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-txt img {
+  height: 38px;
+  margin-bottom: 24px;
+}
+
+.footer-txt .sub {
+  margin-bottom: 12px;
+}
+
+.footer-txt p {
+  font-family: var(--DM-Sans);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--first-background);
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
