@@ -75,20 +75,17 @@ html {
 /* Sessão Início */ 
 
 .main {
-  height: 100dvh;
   width: 100%;
-  padding-top: 156px 0 172px;
+  padding: 156px 71px 172px 123px;
   background: var(--first-background);
 }
 
 .main .content {
-  padding-top: 84px;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 123px;
 }
 
 .home-text h1 {
@@ -136,8 +133,8 @@ html {
 /* Sobre */
 
 .about {
-  height: 100dvh;
-  width: 100%;
+  padding: 160px 121px 160px 0;
+  /* width: 100%; */
   background: var(--second-background);
 }
 
@@ -147,6 +144,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 64px;
 }
 
 .about-img img {
@@ -167,7 +165,6 @@ html {
   font-weight: 400;
   color: var(--gray);
   width: 610px;
-  padding-right: 121px;
 }
 
 /* Serviços */
