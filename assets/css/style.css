@@ -457,4 +457,20 @@ html {
   gap: 32px;
 }
 
-/* Responsivo */ 
+/* Responsivo */
+
+/* Celular */
+@media(max-width: 375px) {
+  .header .logo {
+    height: 32px;
+  }
+
+  .header button {
+    display: block;
+  }
+
+  .header .nav-bar {
+    display: none;
+  }
+
+}
