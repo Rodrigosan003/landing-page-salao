@@ -81,6 +81,7 @@ html {
 /* Sessão Início */ 
 
 .main {
+  height: 100vh;
   width: 100%;
   padding: 156px 71px 172px 123px;
   background: var(--first-background);
@@ -139,6 +140,7 @@ html {
 /* Sobre */
 
 .about {
+  height: 100vh;
   padding: 160px 121px 160px 0;
   /* width: 100%; */
   background: var(--second-background);
@@ -176,6 +178,7 @@ html {
 /* Serviços */
 
 .services {
+  min-height: 100vh;
   padding: 0 123px 160px 123px;
   background: var(--first-background);
 }
@@ -259,6 +262,7 @@ html {
 /* Depoimentos */
 
 .testimonials {
+  height: 100vh;
   width: 100%;
   background: var(--second-background);
   padding: 160px 123px 160px 123px;
@@ -347,6 +351,7 @@ html {
 }
 
 .contact {
+  height: 100vh;
   background: var(--first-background);
   padding: 160px 309px 160px 123px;
 }
