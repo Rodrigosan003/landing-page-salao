@@ -464,18 +464,11 @@ html {
 
 /* Responsivo */
 
-/* Celular */
-@media(max-width: 375px) {
-  .header .logo {
-    height: 32px;
+@media (max-width: 1200px){
+  html {
+    font-size: 55%;
   }
-
-  .header button {
-    display: block;
-  }
-
-  .header .nav-bar {
-    display: none;
-  }
-
 }
+
+/* Celular */
+
