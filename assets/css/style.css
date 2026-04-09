@@ -51,7 +51,7 @@ html {
 .header button {
   background: none;
   border: none;
-  display: none;
+  /* display: none; */
 } 
 
 .nav-bar ul {
@@ -434,6 +434,8 @@ html {
   background: var(--primary-color);
   height: 237px;
   width: 100%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
   padding: 0 122px 0 123px;
   display: flex;
   align-items: center;
