@@ -262,7 +262,6 @@ html {
 /* Depoimentos */
 
 .testimonials {
-  height: 100vh;
   width: 100%;
   background: var(--second-background);
   padding: 160px 123px 160px 123px;
