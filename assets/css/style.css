@@ -469,6 +469,10 @@ html {
   html {
     font-size: 55%;
   }
+
+  .testimonials {
+    height: 100vh;
+  }
 }
 
 @media (max-width: 991px) {
