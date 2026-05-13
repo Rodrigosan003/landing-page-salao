@@ -51,7 +51,7 @@ html {
 .header button {
   background: none;
   border: none;
-  /* display: none; */
+  display: none;
 } 
 
 .nav-bar ul {
