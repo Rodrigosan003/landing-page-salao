@@ -1,5 +1,5 @@
+let links = document.querySelectorAll("nav a");
 
-
-btn.addEventListener("click", () => {
+links.addEventListener("click", () => {
     alert("clicou");
 })
