@@ -52,7 +52,7 @@ html {
   background: none;
   border: none;
   display: none;
-} 
+}
 
 .nav-bar {
   display: flex;
@@ -69,13 +69,14 @@ html {
   transition: color 0.5s ease;
 }
 
-.nav-bar a:hover, .nav-bar a.active {
+.nav-bar a:hover,
+.nav-bar a.active {
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
   padding-bottom: 24px;
 }
 
-/* Sessão Início */ 
+/* Sessão Início */
 
 .main {
   height: 100vh;
@@ -226,7 +227,9 @@ html {
   text-align: center;
   flex: 1;
   padding: 58px 48px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .service-card:hover {
@@ -462,7 +465,7 @@ html {
 
 /* Responsivo */
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
@@ -473,21 +476,16 @@ html {
 }
 
 @media (max-width: 991px) {
-
 }
 
 @media (max-width: 768px) {
-
 }
 
 @media (max-width: 617px) {
-
 }
 
 @media (max-width: 450px) {
-
 }
 
 @media (max-width: 365px) {
-
 }
