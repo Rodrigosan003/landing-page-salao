@@ -1,9 +1,3 @@
-// let links = document.querySelectorAll(".links");
-
-// links.addEventListener("click", () => {
-//     alert("clicou");
-// })
-
 let links = document.querySelectorAll(".nav-bar a");
 let menu = document.querySelector("#menu");
 
