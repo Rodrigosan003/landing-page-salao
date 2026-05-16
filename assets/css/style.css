@@ -343,6 +343,7 @@ html {
   width: 12px;
   border-radius: 50%;
   background: var(--light-gray);
+  cursor: pointer;
 }
 
 .dots-check {
