@@ -1,5 +1,6 @@
 let links = document.querySelectorAll(".nav-bar a");
 let sections = document.querySelectorAll(".section");
+
 let navLinks = document.querySelectorAll("header nav a");
 
 
@@ -36,6 +37,6 @@ window.onscroll = () => {
 
   header.classList.toggle("sticky", window.scrollY > 100);
 
-  menuIcon.classList.remove("bi-x");
+  // menuIcon.classList.remove("bi-x");
   navbar.classList.remove("active");
 };
