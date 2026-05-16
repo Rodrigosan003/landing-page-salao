@@ -1,7 +1,9 @@
 let links = document.querySelectorAll(".nav-bar a");
 let sections = document.querySelectorAll(".section");
-
 let navLinks = document.querySelectorAll("header nav a");
+
+// Pega os dots da sessão depoimentos
+let dotsTestimonials = document.querySelectorAll(".dots");
 
 
 let menu = document.querySelector("#menu");
