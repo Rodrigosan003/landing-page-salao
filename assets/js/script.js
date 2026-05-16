@@ -42,3 +42,7 @@ window.onscroll = () => {
   // menuIcon.classList.remove("bi-x");
   navbar.classList.remove("active");
 };
+
+dotsTestimonials.addEventListener("click", () => {
+  dotsTestimonials.getAttribute.toggle("dots-check");
+})
