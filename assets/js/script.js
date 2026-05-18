@@ -2,9 +2,8 @@ let links = document.querySelectorAll(".nav-bar a");
 let sections = document.querySelectorAll(".section");
 let navLinks = document.querySelectorAll("header nav a");
 
-// Lembrete:
-// Fazer o efeito dos dots de depoimentos usando input checkboxs.
-
+// Dots de depoimentos
+let dots = document.querySelectorAll(".content-dots .dots");
 
 let menu = document.querySelector("#menu");
 
