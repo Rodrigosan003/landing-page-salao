@@ -42,3 +42,7 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
+dots.addEventListener("click", () => {
+  dots.classList.remove(".dots-check");
+  dots.classList.add(".dots-check");
+});
