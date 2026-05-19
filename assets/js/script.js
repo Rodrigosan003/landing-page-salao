@@ -4,6 +4,7 @@ let navLinks = document.querySelectorAll("header nav a");
 
 // Dots de depoimentos
 let dots = document.querySelectorAll(".content-dots .dots");
+console.log(dots);
 
 let menu = document.querySelector("#menu");
 
@@ -42,7 +43,9 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-dots.addEventListener("click", () => {
-  dots.classList.remove(".dots-check");
-  dots.classList.add(".dots-check");
+dots.forEach((ball) => {
+  ball.addEventListener("click", () => {
+    dots.forEach((b) => b.classList.remove("dots-check"));
+    ball.classList.add("dots-check");
+  });
 });
