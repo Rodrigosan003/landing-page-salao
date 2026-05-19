@@ -40,7 +40,7 @@ window.onscroll = () => {
   header.classList.toggle("sticky", window.scrollY > 100);
 
   // menuIcon.classList.remove("bi-x");
-  navbar.classList.remove("active");
+  navLinks.classList.remove("active");
 };
 
 dots.forEach((ball) => {
