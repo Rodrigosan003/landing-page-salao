@@ -72,7 +72,7 @@ html {
 .nav-bar a:hover,
 .nav-bar a.active {
   color: var(--primary-color);
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
   padding-bottom: 24px;
 }
 
