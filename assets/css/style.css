@@ -297,6 +297,10 @@ html {
   padding: 52px;
 }
 
+.testimonial-display {
+  display: none;
+}
+
 .testimonial p {
   max-width: 440px;
   font-family: var(--DM-Sans);
