@@ -301,6 +301,11 @@ html {
   display: none;
 }
 
+.testimonial:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
 .testimonial p {
   max-width: 440px;
   font-family: var(--DM-Sans);
