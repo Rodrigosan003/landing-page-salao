@@ -49,3 +49,5 @@ dots.forEach((ball) => {
     ball.classList.add("dots-check");
   });
 });
+
+// Conectar os balls com os cards.
