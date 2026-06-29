@@ -491,64 +491,7 @@ html {
 }
 
 @media (max-width: 991px) {
-  .header .content {
-    padding: 0 80px;
-  }
-
-  .main {
-    padding: 120px 80px;
-  }
-
-  .about {
-    padding: 120px 80px;
-  }
-
-  .services {
-    padding: 0 80px 120px 80px;
-  }
-
-  .services .content {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .service-card {
-    width: 280px;
-    height: 300px;
-    padding: 40px 30px;
-  }
-
-  .testimonials {
-    padding: 120px 80px;
-  }
-
-  .contact {
-    padding: 120px 80px;
-  }
-
-  .footer {
-    padding: 0 80px;
-  }
-
-  .main .content {
-    flex-direction: column;
-    justify-content: center;
-    gap: 40px;
-  }
-
-  .image img {
-    height: 350px;
-    width: 500px;
-  }
-
-  .about .content {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .about-img img {
-    height: 350px;
-  }
+  
 }
 
 @media (max-width: 768px) {
