@@ -507,48 +507,5 @@ html {
 }
 
 @media (max-width: 365px) {
-  html {
-    font-size: 40%;
-  }
-
-  .main {
-    padding: 70px 10px;
-  }
-
-  .home-text h1 {
-    font-size: 18px;
-  }
-
-  .home-text p {
-    font-size: 12px;
-  }
-
-  .image img {
-    height: 150px;
-    width: auto;
-  }
-
-  .about {
-    padding: 70px 10px;
-  }
-
-  .services {
-    padding: 0 10px 70px 10px;
-  }
-
-  .contact {
-    padding: 70px 10px;
-  }
-
-  .footer {
-    padding: 15px 10px;
-  }
-
-  .service-card {
-    padding: 15px 10px;
-  }
-
-  .testimonial {
-    padding: 15px 10px;
-  }
+ 
 }
