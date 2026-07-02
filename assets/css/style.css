@@ -350,6 +350,12 @@ html {
   padding-top: 58px;
 }
 
+.content-dots input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 .dots {
   height: 12px;
   width: 12px;
