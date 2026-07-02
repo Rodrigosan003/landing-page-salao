@@ -350,7 +350,7 @@ html {
   padding-top: 58px;
 }
 
-.content-dots input {
+.content-dots input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
