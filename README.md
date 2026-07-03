@@ -8,9 +8,13 @@ Uma landing page moderna e responsiva desenvolvida para um salão de beleza fict
 
 > Projeto desenvolvido para estudos de front-end e construção de interfaces modernas.
 
-### 📸 Preview
+## 📸 Preview
+
+### Desktop
 
 ![Preview Desktop](./assets/images/desktop.png)
+
+### Mobile
 
 ---
 
