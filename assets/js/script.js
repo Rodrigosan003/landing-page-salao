@@ -50,4 +50,3 @@ dots.forEach((ball) => {
   });
 });
 
-// Conectar os balls com os cards.
