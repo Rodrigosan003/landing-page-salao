@@ -502,10 +502,8 @@ html {
   gap: 20px;
 }
 
-  main,
-  section {
-    padding: 10rem 3% 2rem;
-    height: 100vh;
+  .main .content {
+    font-size: 10px;
   }
 
   .services {
