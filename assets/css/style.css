@@ -493,7 +493,35 @@ html {
 }
 
 @media (max-width: 991px) {
-  
+    .header {
+    padding: 2rem 3%;
+  }
+
+  main,
+  section {
+    padding: 10rem 3% 2rem;
+    height: 100vh;
+  }
+
+  .services {
+    padding-bottom: 7rem;
+  }
+
+  .portfolio {
+    padding-bottom: 7rem;
+  }
+
+  .contact {
+    min-height: auto;
+  }
+
+  .contact .contact-links {
+    width: 60%;
+  }
+
+  .footer {
+    padding: 2rem 3%;
+  }
 }
 
 @media (max-width: 768px) {
