@@ -43,6 +43,8 @@ window.onscroll = () => {
   navLinks.classList.remove("active");
 };
 
+
+// Dots da sessão testemunhos
 dots.forEach((ball) => {
   ball.addEventListener("click", () => {
     dots.forEach((b) => b.classList.remove("dots-check"));
