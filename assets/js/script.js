@@ -7,6 +7,9 @@ let dots = document.querySelectorAll(".content-dots .dots");
 console.log(dots);
 
 let menu = document.querySelector("#menu-icon");
+menu.addEventListener("click", () => {
+  alert("Clicou!!!");
+})
 
 
 links.forEach((link) => {
