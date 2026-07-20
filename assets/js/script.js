@@ -8,6 +8,7 @@ console.log(dots);
 
 let menu = document.querySelector("#menu-icon");
 
+
 links.forEach((link) => {
   link.addEventListener("click", () => {
     // remove de todos
