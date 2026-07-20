@@ -6,7 +6,7 @@ let navLinks = document.querySelectorAll("header nav a");
 let dots = document.querySelectorAll(".content-dots .dots");
 console.log(dots);
 
-let menu = document.querySelector("#menu");
+let menu = document.querySelector(".menu-icon");
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
