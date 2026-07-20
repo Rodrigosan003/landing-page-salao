@@ -6,7 +6,7 @@ let navLinks = document.querySelectorAll("header nav a");
 let dots = document.querySelectorAll(".content-dots .dots");
 console.log(dots);
 
-let menu = document.querySelector("#menu-icon");
+let menu = document.querySelector("#menu-icon img");
 menu.addEventListener("click", (menuImg) => {
   // alert("Clicou!!!");
   menuImg.src = "./assets/images/close.svg";
