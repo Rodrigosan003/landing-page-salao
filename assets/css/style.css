@@ -530,7 +530,12 @@ html {
 @media (max-width: 768px) {
   .header button{
   display: block;
+  margin-right: 30px;
  }
+
+ /* .nav-bar {
+  flex-direction: column;
+ } */
 }
 
 @media (max-width: 617px) {
