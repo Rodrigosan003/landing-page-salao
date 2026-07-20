@@ -52,6 +52,7 @@ html {
   background: none;
   border: none;
   display: none;
+  cursor: pointer;
 }
 
 .nav-bar {
