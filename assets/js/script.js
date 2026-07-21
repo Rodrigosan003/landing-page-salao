@@ -5,7 +5,9 @@ let navLinks = document.querySelectorAll("header nav a");
 // Dots de depoimentos
 let dots = document.querySelectorAll(".content-dots .dots");
 
+// Troca a imagem do menu movile
 let menu = document.querySelector("#menu-icon");
+let imgMenu = document.querySelector("#menuImg");
 menu.addEventListener("click", () => {
   alert("Clicou!!!");
 })
