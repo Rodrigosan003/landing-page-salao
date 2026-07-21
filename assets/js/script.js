@@ -4,7 +4,6 @@ let navLinks = document.querySelectorAll("header nav a");
 
 // Dots de depoimentos
 let dots = document.querySelectorAll(".content-dots .dots");
-console.log(dots);
 
 let menu = document.querySelector("#menu-icon");
 menu.addEventListener("click", () => {
