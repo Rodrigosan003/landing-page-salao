@@ -9,7 +9,13 @@ let dots = document.querySelectorAll(".content-dots .dots");
 let menu = document.querySelector("#menu-icon");
 let imgMenu = document.querySelector("#menuImg");
 menu.addEventListener("click", () => {
-  alert("Clicou!!!");
+  // alert("Clicou!!!");
+  // verifica se é o ícone atual e alterna
+  if (imgMenu.getAttribute('src') === 'menu.svg') {
+    imgMenu.setAttribute('src', 'close.svg');
+  } else {
+    imgMenu.setAttribute('src', 'menu.svg')
+  }
 })
 
 
