@@ -8,8 +8,7 @@ console.log(dots);
 
 let menu = document.querySelector("#menu-icon");
 menu.addEventListener("click", () => {
-  // alert("Clicou!!!");
-  document.getElementById("menuImg").src = "../images/close.svg"
+  alert("Clicou!!!");
 })
 
 
