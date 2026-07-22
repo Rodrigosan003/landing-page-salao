@@ -533,6 +533,10 @@ html {
   display: block;
   margin-right: 30px;
  }
+
+ .header .nav-bar {
+  display: none;
+ }
 }
 
 @media (max-width: 617px) {
