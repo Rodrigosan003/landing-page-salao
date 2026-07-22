@@ -11,10 +11,10 @@ let imgMenu = document.querySelector("#menuImg");
 menu.addEventListener("click", () => {
   // alert("Clicou!!!");
   // verifica se é o ícone atual e alterna
-  if (imgMenu.getAttribute('src') === './images/menu.svg') {
-    imgMenu.setAttribute('src', '../images/close.svg');
+  if (imgMenu.getAttribute('src') === './assets/images/menu.svg') {
+    imgMenu.setAttribute('src', './assets/images/close.svg');
   } else {
-    imgMenu.setAttribute('src', '../images/menu.svg')
+    imgMenu.setAttribute('src', './assets/images/menu.svg')
   }
 })
 
