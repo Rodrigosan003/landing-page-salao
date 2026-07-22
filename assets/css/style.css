@@ -531,7 +531,6 @@ html {
 @media (max-width: 768px) {
   .header button{
   display: block;
-  margin-right: 30px;
  }
 
  .header .nav-bar {
