@@ -548,6 +548,10 @@ html {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   display: none;
  }
+
+ .header .nav-bar.active {
+  display: block;
+ }
 }
 
 @media (max-width: 617px) {
