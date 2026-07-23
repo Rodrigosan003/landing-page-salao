@@ -535,6 +535,7 @@ html {
 
  .header .nav-bar {
   flex-direction: column;
+  align-items: center;
   position: absolute;
   top: 100%;
   left: 0;
