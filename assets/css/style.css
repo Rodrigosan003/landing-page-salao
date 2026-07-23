@@ -534,7 +534,8 @@ html {
  }
 
  .header .nav-bar {
-  display: none;
+  
+  /* display: none; */
  }
 }
 
