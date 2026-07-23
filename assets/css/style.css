@@ -549,7 +549,7 @@ html {
   display: none;
  }
 
- .header .nav-bar.active {
+ .nav-bar.active {
   display: block;
  }
 }
