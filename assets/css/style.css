@@ -75,7 +75,7 @@ html {
 .nav-bar a.active {
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 20px;
+  padding-bottom: 21px;
 }
 
 /* Sessão Início */
