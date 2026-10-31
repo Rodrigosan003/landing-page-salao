@@ -64,6 +64,7 @@ html {
   font-family: var(--DM-Sans);
   font-size: 16px;
   margin-top: 25px;
+  padding-bottom: 20px;
   text-decoration: none;
   color: var(--dark);
   font-weight: 500;
@@ -74,7 +75,7 @@ html {
 .nav-bar a.active {
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 
 /* Sessão Início */
