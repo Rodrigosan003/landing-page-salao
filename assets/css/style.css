@@ -50,6 +50,7 @@ html {
 
 i {
   font-size: 24px;
+  color: var(--primary-color);
 }
 
 .nav-bar {
