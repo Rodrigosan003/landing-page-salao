@@ -48,11 +48,9 @@ html {
   width: 164px;
 }
 
-.header button {
-  background: none;
-  border: none;
-  display: none;
-  cursor: pointer;
+i {
+  height: 24px;
+  width: 24px;
 }
 
 .nav-bar {
