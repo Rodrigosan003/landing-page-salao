@@ -530,6 +530,10 @@ html {
 }
 
 @media (max-width: 768px) {
+  .nav-bar {
+    position: absolute;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 617px) {
