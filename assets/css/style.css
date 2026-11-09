@@ -530,6 +530,10 @@ html {
 }
 
 @media (max-width: 768px) {
+  .header {
+    height: 72px;
+  }
+
   .nav-bar {
     position: absolute;
     flex-direction: column;
