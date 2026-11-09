@@ -554,6 +554,10 @@ html {
     display: none;
   }
 
+  .nav-bar.open {
+    display: flex;
+  }
+
   .nav-bar a {
     font-family: var(--Poppins);
     font-size: 30px;
