@@ -543,6 +543,7 @@ html {
   .nav-bar {
     position: absolute;
     top: 72px;
+    background: var(--second-background);
     flex-direction: column;
   }
 }
