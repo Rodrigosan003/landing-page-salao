@@ -537,10 +537,12 @@ html {
 
   .logo img {
     height: 32px;
+    width: 144px;
   }
 
   .nav-bar {
     position: absolute;
+    top: 72px;
     flex-direction: column;
   }
 }
