@@ -6,7 +6,10 @@ let navLinks = document.querySelectorAll("header nav a");
 let dots = document.querySelectorAll(".content-dots .dots");
 
 // Troca a imagem do menu movile
-let menu = document.querySelector("#menu-icon");
+let menu = document.querySelector("#menu-btn");
+menu.addEventListener("click", () => {
+  alert("Clicoooooooou!!!");
+});
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
