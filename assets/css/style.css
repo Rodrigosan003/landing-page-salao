@@ -550,6 +550,12 @@ html {
     width: 100%;
     flex-direction: column;
   }
+
+  .nav-bar a {
+    font-family: var(--Poppins);
+    font-size: 30px;
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 617px) {
