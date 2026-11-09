@@ -48,7 +48,7 @@ html {
   width: 164px;
 }
 
-i {
+#menu-btn {
   font-size: 24px;
   color: var(--primary-color);
   display: none;
@@ -529,7 +529,7 @@ i {
 }
 
 @media (max-width: 768px) {
-  i {
+  #menu-btn {
     display: block;
   }
   .header {
