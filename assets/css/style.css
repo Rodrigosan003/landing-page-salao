@@ -529,6 +529,9 @@ i {
 }
 
 @media (max-width: 768px) {
+  i {
+    display: block;
+  }
   .header {
     position: relative;
     height: 72px;
