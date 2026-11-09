@@ -544,6 +544,7 @@ html {
     position: absolute;
     top: 72px;
     background: var(--second-background);
+    padding: 207px 103px 208px 103px;
     flex-direction: column;
   }
 }
