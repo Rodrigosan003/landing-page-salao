@@ -535,6 +535,10 @@ html {
     height: 72px;
   }
 
+  .logo img {
+    height: 32px;
+  }
+
   .nav-bar {
     position: absolute;
     flex-direction: column;
