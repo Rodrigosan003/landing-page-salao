@@ -351,9 +351,9 @@ html {
 }
 
 .content-dots input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .dots {
@@ -495,14 +495,14 @@ html {
 }
 
 @media (max-width: 991px) {
-    .header .content {
+  .header .content {
     padding: 2rem 3%;
   }
 
   .nav-bar {
-  display: flex;
-  gap: 20px;
-}
+    display: flex;
+    gap: 20px;
+  }
 
   .main .content {
     font-size: 10px;
@@ -530,46 +530,13 @@ html {
 }
 
 @media (max-width: 768px) {
-  .header button{
-  display: block;
- }
-
- .header .nav-bar {
-  flex-direction: column;
-  align-items: center;
-  /* justify-content: space-between; */
-  height: 100vh;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 1rem 3%;
-  background: var(--first-background);
-  border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  display: none;
- }
-
- .nav-bar.open {
-  display: flex;
- }
-
- .nav-bar a:hover,
-.nav-bar a.active {
-  color: var(--primary-color);
-  /* border-bottom: 3px solid var(--primary-color); */
-  /* padding-bottom: 24px; */
-}
 }
 
 @media (max-width: 617px) {
-  
 }
 
 @media (max-width: 450px) {
-
 }
 
 @media (max-width: 365px) {
- 
 }
