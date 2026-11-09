@@ -7,16 +7,6 @@ let dots = document.querySelectorAll(".content-dots .dots");
 
 // Troca a imagem do menu movile
 let menu = document.querySelector("#menu-icon");
-let imgMenu = document.querySelector("#menuImg");
-menu.addEventListener("click", () => {
-  // verifica se é o ícone atual e alterna
-  if (imgMenu.getAttribute('src') === './assets/images/menu.svg') {
-    imgMenu.setAttribute('src', './assets/images/close.svg');
-  } else {
-    imgMenu.setAttribute('src', './assets/images/menu.svg')
-  }
-})
-
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
@@ -27,7 +17,6 @@ links.forEach((link) => {
     link.classList.add("active");
   });
 });
-
 
 window.onscroll = () => {
   sections.forEach((sec) => {
@@ -53,7 +42,6 @@ window.onscroll = () => {
   navLinks.classList.remove("active");
 };
 
-
 // Dots da sessão testemunhos
 dots.forEach((ball) => {
   ball.addEventListener("click", () => {
@@ -61,4 +49,3 @@ dots.forEach((ball) => {
     ball.classList.add("dots-check");
   });
 });
-
