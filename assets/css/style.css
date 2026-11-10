@@ -533,7 +533,6 @@ html {
     display: block;
   }
   .header {
-    position: fixed;
     height: 72px;
   }
 
