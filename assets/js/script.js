@@ -20,6 +20,7 @@ links.forEach((link) => {
     // adiciona no clicado
     link.classList.add("active");
     menu.classList.remove("bi-x-lg");
+    navBar.classList.remove("open");
   });
 });
 
