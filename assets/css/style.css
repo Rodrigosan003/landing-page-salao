@@ -546,8 +546,7 @@ html {
     top: 72px;
     left: 0;
     background: var(--second-background);
-    padding: 207px 103px 208px 103px;
-
+    padding: 30px 103px 208px 103px;
     width: 100%;
     flex-direction: column;
     display: none;
