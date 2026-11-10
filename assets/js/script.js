@@ -7,9 +7,7 @@ let dots = document.querySelectorAll(".content-dots .dots");
 
 // Troca a imagem do menu movile
 let menu = document.querySelector("#menu-btn");
-menu.addEventListener("click", () => {
-  alert("Clicoooooooou!!!");
-});
+menu.addEventListener("click", () => {});
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
