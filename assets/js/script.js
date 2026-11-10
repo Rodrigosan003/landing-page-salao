@@ -9,6 +9,7 @@ let dots = document.querySelectorAll(".content-dots .dots");
 let menu = document.querySelector("#menu-btn");
 menu.addEventListener("click", () => {
   menu.classList.toggle("bi-x-lg");
+  navBar.classList.toggle("open");
 });
 
 links.forEach((link) => {
