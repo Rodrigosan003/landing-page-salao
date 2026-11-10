@@ -42,7 +42,7 @@ window.onscroll = () => {
   header.classList.toggle("sticky", window.scrollY > 100);
 
   // menuIcon.classList.remove("bi-x");
-  navLinks.classList.remove("active");
+  links.classList.remove("active");
 };
 
 // Dots da sessão testemunhos
