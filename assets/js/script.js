@@ -1,6 +1,6 @@
 let links = document.querySelectorAll(".nav-bar a");
 let sections = document.querySelectorAll(".section");
-let navBar = document.querySelectorAll(".nav-bar");
+let navBar = document.querySelector(".nav-bar");
 
 // Dots de depoimentos
 let dots = document.querySelectorAll(".content-dots .dots");
