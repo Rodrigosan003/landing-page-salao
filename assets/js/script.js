@@ -43,9 +43,6 @@ window.onscroll = () => {
   let header = document.querySelector("header");
 
   header.classList.toggle("sticky", window.scrollY > 100);
-
-  // menuIcon.classList.remove("bi-x");
-  // links.classList.remove("active");
 };
 
 // Dots da sessão testemunhos
