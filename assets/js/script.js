@@ -9,7 +9,7 @@ let dots = document.querySelectorAll(".content-dots .dots");
 let menu = document.querySelector("#menu-btn");
 menu.addEventListener("click", () => {
   menu.classList.toggle("bi-x-lg");
-  navBar.classList.toggle("open");
+  navBar.classList.add("open");
 });
 
 links.forEach((link) => {
@@ -30,7 +30,7 @@ window.onscroll = () => {
     let id = sec.getAttribute("id");
 
     if (top >= offset && top < offset + height) {
-      navLinks.forEach((links) => {
+      links.forEach((links) => {
         links.classList.remove("active");
         document
           .querySelector("header nav a[href*=" + id + "]")
