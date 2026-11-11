@@ -561,6 +561,10 @@ html {
     font-size: 30px;
     font-weight: bold;
   }
+
+  .main .content {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 617px) {
