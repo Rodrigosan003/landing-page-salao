@@ -562,16 +562,13 @@ html {
     font-weight: bold;
   }
 
+  .main {
+    padding-top: 104px;
+    height: 100vh;
+  }
+
   .main .content {
     flex-direction: column-reverse;
-  }
-
-  .home-text {
-    flex: 2;
-  }
-
-  .image {
-    flex: 1;
   }
 }
 
