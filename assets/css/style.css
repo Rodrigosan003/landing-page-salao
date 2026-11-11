@@ -567,8 +567,8 @@ html {
     height: 100vh;
   }
 
-  .main .content {
-    flex-direction: column-reverse;
+  .image {
+    order: -1;
   }
 }
 
