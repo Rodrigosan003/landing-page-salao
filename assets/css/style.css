@@ -564,10 +564,16 @@ html {
 
   .main {
     padding-top: 104px;
-    height: 100vh;
+    min-height: 100vh;
+  }
+
+  .main .content {
+    flex-direction: column;
   }
 
   .image {
+    height: 265px;
+    width: 394px;
     order: -1;
   }
 }
