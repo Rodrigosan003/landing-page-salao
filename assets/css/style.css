@@ -571,7 +571,11 @@ html {
     flex-direction: column;
   }
 
-  .image {
+  .home-text {
+    order: 1;
+  }
+
+  .image img {
     height: 265px;
     width: 394px;
     order: -1;
