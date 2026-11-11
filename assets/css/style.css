@@ -563,7 +563,8 @@ html {
   }
 
   .main {
-    padding-top: 104px;
+    /* padding-top: 104px;*/
+    padding: 104 0;
     min-height: 100vh;
   }
 
@@ -577,7 +578,7 @@ html {
 
   .image img {
     height: 265px;
-    width: 394px;
+    width: 100%;
     order: -1;
   }
 }
