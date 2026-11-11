@@ -484,48 +484,9 @@ html {
 /* Responsivo */
 
 @media (max-width: 1200px) {
-  html {
-    font-size: 55%;
-  }
-
-  .testimonials {
-    height: 100vh;
-  }
 }
 
 @media (max-width: 991px) {
-  .header .content {
-    padding: 2rem 3%;
-  }
-
-  .nav-bar {
-    display: flex;
-    gap: 20px;
-  }
-
-  .main .content {
-    font-size: 10px;
-  }
-
-  .services {
-    padding-bottom: 7rem;
-  }
-
-  .portfolio {
-    padding-bottom: 7rem;
-  }
-
-  .contact {
-    min-height: auto;
-  }
-
-  .contact .contact-links {
-    width: 60%;
-  }
-
-  .footer {
-    padding: 2rem 3%;
-  }
 }
 
 @media (max-width: 768px) {
