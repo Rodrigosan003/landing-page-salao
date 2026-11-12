@@ -553,6 +553,10 @@ html {
     font-size: 30px;
   }
 
+  .home-text p {
+    text-align: center;
+  }
+
   .image img {
     height: 265px;
     width: 100%;
