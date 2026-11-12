@@ -543,6 +543,7 @@ html {
 
   .home-text {
     order: 1;
+    display: flex;
     align-items: center;
   }
 
