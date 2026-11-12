@@ -556,6 +556,7 @@ html {
     height: 265px;
     width: 100%;
     order: -1;
+    margin-bottom: 32px;
   }
 }
 
