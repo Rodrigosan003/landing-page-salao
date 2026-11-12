@@ -548,6 +548,10 @@ html {
     align-items: center;
   }
 
+  .home-text h1 {
+    text-align: justify;
+  }
+
   .image img {
     height: 265px;
     width: 100%;
