@@ -578,6 +578,7 @@ html {
   .about-img img {
     height: 280px;
     width: 486px;
+    margin-top: 80px;
   }
 }
 
