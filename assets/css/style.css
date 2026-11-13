@@ -584,6 +584,10 @@ html {
   .about-txt {
     margin: 0 24px;
   }
+
+  .about-txt h1 {
+    text-align: left;
+  }
 }
 
 @media (max-width: 617px) {
