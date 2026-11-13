@@ -567,6 +567,10 @@ html {
     margin-bottom: 32px;
   }
 
+  .about {
+    padding: 0;
+  }
+
   .about .content {
     flex-direction: column;
   }
