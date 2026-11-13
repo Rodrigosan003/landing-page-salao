@@ -569,7 +569,6 @@ html {
 
   .about .content {
     flex-direction: column;
-    padding: 0;
   }
 
   .about-img img {
