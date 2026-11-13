@@ -570,6 +570,10 @@ html {
   .about .content {
     flex-direction: column;
   }
+
+  .about-img img {
+    height: 280px;
+  }
 }
 
 @media (max-width: 617px) {
