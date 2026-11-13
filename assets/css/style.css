@@ -566,6 +566,10 @@ html {
     order: -1;
     margin-bottom: 32px;
   }
+
+  .about .content {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 617px) {
