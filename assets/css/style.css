@@ -582,11 +582,12 @@ html {
   }
 
   .about-txt {
-    margin: 0 24px;
+    margin: 0 24px 0 24px;
   }
 
   .about-txt h1 {
     text-align: left;
+    font-size: 30px;
   }
 }
 
