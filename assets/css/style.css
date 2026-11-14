@@ -590,6 +590,10 @@ html {
     font-size: 30px;
     margin: 32px 0 16px 24px;
   }
+
+  .about-txt p {
+    margin: 0 24px 80px 24px;
+  }
 }
 
 @media (max-width: 617px) {
