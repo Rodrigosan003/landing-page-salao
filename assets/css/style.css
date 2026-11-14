@@ -592,7 +592,7 @@ html {
   }
 
   .about-txt p {
-    max-width: 100%;
+    min-width: 327px;
     margin: 0 24px 80px 24px;
   }
 }
