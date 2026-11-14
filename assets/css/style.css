@@ -583,6 +583,7 @@ html {
 
   .about-txt {
     margin: 0 24px 0 24px;
+    max-width: 100vw;
   }
 
   .about-txt h1 {
