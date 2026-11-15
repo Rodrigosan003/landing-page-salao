@@ -143,7 +143,7 @@ html {
 .about {
   height: 100vh;
   padding: 160px 121px 160px 0;
-  /* width: 100%; */
+  width: 100vw;
   background: var(--second-background);
 }
 
