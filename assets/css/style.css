@@ -567,6 +567,12 @@ html {
     margin-bottom: 32px;
   }
 
+  .about {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+  }
+
   .about .content {
     flex-direction: column;
   }
