@@ -580,6 +580,7 @@ html {
 
   .about-img img {
     height: 280px;
+    width: 100vw;
   }
 
   .about-txt p {
