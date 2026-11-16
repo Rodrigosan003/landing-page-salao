@@ -575,6 +575,10 @@ html {
     height: 280px;
   }
 
+  .about-txt p {
+    width: 327px;
+  }
+
   .services {
     display: none;
   }
