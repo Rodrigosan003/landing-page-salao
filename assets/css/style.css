@@ -567,8 +567,8 @@ html {
     margin-bottom: 32px;
   }
 
-  .about {
-    display: none;
+  .about .content {
+    flex-direction: column;
   }
 
   .services {
