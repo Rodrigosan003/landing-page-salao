@@ -599,6 +599,10 @@ html {
   .services {
     display: none;
   }
+
+  .testimonials {
+    display: none;
+  }
 }
 
 @media (max-width: 617px) {
