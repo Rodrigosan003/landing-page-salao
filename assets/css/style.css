@@ -571,6 +571,10 @@ html {
     flex-direction: column;
   }
 
+  .about-img img {
+    height: 280px;
+  }
+
   .services {
     display: none;
   }
