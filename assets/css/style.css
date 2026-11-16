@@ -607,6 +607,10 @@ html {
   .contact {
     display: none;
   }
+
+  .footer {
+    display: none;
+  }
 }
 
 @media (max-width: 617px) {
