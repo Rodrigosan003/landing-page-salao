@@ -592,7 +592,7 @@ html {
     flex-direction: column;
   }
 
-  .service-card {
+  .services .content {
     flex-direction: column;
   }
 
