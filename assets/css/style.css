@@ -614,11 +614,13 @@ html {
     height: 372px;
     width: 327px;
     padding: 58px 32px;
+    margin: 0;
   }
 
   .service-card p {
     width: 263px;
     text-align: center;
+    padding-bottom: 0;
   }
 
   .testimonials {
