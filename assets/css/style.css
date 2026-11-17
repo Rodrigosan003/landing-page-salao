@@ -615,6 +615,11 @@ html {
     width: 327px;
   }
 
+  .service-card p {
+    width: 263px;
+    text-align: center;
+  }
+
   .testimonials {
     display: none;
   }
