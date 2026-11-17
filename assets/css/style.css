@@ -615,6 +615,9 @@ html {
     /* width: 327px; */
     width: 100%;
     padding: 58px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .service-card p {
