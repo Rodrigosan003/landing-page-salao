@@ -588,7 +588,8 @@ html {
   }
 
   .services {
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
 
   .testimonials {
