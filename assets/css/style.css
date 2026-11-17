@@ -607,6 +607,7 @@ html {
     width: 327px;
     font-size: 16px;
     font-family: var(--DM-Sans);
+    margin: 0;
   }
 
   .testimonials {
