@@ -587,6 +587,10 @@ html {
     width: 327px;
   }
 
+  .services {
+    padding: 80px 24px;
+  }
+
   .services .content {
     flex-direction: column;
   }
