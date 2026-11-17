@@ -613,6 +613,7 @@ html {
   .service-card {
     height: 372px;
     width: 327px;
+    padding: 58px 32px;
   }
 
   .service-card p {
