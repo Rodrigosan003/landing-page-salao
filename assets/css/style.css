@@ -597,6 +597,8 @@ html {
 
   .services h2 {
     text-align: left;
+    font-family: var(--Poppins);
+    font-size: 30px;
   }
 
   .services p {
