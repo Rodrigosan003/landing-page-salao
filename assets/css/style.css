@@ -592,6 +592,10 @@ html {
     flex-direction: column;
   }
 
+  .service-card {
+    flex-direction: column;
+  }
+
   .testimonials {
     display: none;
   }
