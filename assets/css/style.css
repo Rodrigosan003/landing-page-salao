@@ -596,6 +596,10 @@ html {
     flex-direction: column;
   }
 
+  .services h2 {
+    text-align: left;
+  }
+
   .testimonials {
     display: none;
   }
