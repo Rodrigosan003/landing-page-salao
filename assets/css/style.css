@@ -638,14 +638,14 @@ html {
     margin: 0;
   }
 
-  .testimonial p {
-    font-size: 16px;
-    width: 263px;
-  }
-
   .testimonial {
     height: 302px;
     width: 327px;
+  }
+
+  .testimonial p {
+    font-size: 16px;
+    width: 263px;
   }
 
   .hidden-ts {
