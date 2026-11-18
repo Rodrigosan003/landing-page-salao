@@ -634,6 +634,7 @@ html {
   .testimonials h2 {
     text-align: left;
     font-size: 30px;
+    font-weight: bold;
     width: 259px;
     margin: 0;
   }
