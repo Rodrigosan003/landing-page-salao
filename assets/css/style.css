@@ -630,6 +630,11 @@ html {
     flex-direction: column;
   }
 
+  .testimonials h2 {
+    text-align: left;
+    font-size: 30px;
+  }
+
   .contact {
     display: none;
   }
