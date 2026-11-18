@@ -637,6 +637,7 @@ html {
     font-weight: bold;
     width: 259px;
     margin: 0;
+    padding-bottom: 64px;
   }
 
   .testimonial {
