@@ -627,6 +627,7 @@ html {
   }
 
   .testimonials {
+    flex-direction: column;
   }
 
   .contact {
