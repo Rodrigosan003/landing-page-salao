@@ -641,6 +641,7 @@ html {
   .testimonial {
     height: 302px;
     width: 327px;
+    padding: 32px;
   }
 
   .testimonial p {
