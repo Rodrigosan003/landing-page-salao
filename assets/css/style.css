@@ -637,6 +637,10 @@ html {
     width: 259px;
   }
 
+  .testimonial-content {
+    overflow-x: hidden;
+  }
+
   .contact {
     display: none;
   }
