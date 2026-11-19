@@ -654,6 +654,7 @@ html {
     /* width: 327px; */
     width: 100%;
     padding: 32px;
+    flex: 0 0 100%;
   }
 
   .testimonial p {
