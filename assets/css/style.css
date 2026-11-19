@@ -632,6 +632,10 @@ html {
     padding: 80px 24px;
   }
 
+  .content-dots {
+    margin: 0 auto;
+  }
+
   .testimonials h2 {
     text-align: left;
     font-size: 30px;
