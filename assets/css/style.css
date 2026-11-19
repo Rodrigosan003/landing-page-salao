@@ -639,7 +639,7 @@ html {
     font-weight: bold;
     width: 259px;
     margin-left: 24px;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
   }
 
   .testimonial-content {
