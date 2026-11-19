@@ -646,6 +646,7 @@ html {
     width: 100vw;
     overflow-x: auto;
     scrollbar-width: none;
+    scroll-snap-type: x mandatory;
   }
 
   .testimonial {
