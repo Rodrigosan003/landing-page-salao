@@ -644,6 +644,7 @@ html {
   .testimonial-content {
     padding: 0 24px;
     width: 100vw;
+    overflow-x: auto;
   }
 
   .testimonial {
