@@ -669,7 +669,8 @@ html {
     margin: 0 auto;
   }
 
-  .contact {
+  .contact-content {
+    flex-direction: column;
   }
 
   .footer {
