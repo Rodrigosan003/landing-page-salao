@@ -670,12 +670,17 @@ html {
   }
 
   .contact {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 80px 24px;
   }
 
   .contact-content {
     flex-direction: column;
+  }
+
+  .contact-text h2 {
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .footer {
