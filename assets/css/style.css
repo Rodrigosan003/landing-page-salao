@@ -707,6 +707,10 @@ html {
     height: auto;
   }
 
+  .footer-txt {
+    margin-bottom: 32px;
+  }
+
   .footer-txt img {
     height: 32px;
     margin-bottom: 24px;
