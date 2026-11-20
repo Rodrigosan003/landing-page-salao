@@ -693,6 +693,8 @@ html {
 
   .contact-address {
     margin-top: 64px;
+    width: 237px;
+    align-items: flex-start;
   }
 
   .footer {
