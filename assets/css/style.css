@@ -706,6 +706,11 @@ html {
     align-items: flex-start;
     height: auto;
   }
+
+  .footer-txt img {
+    height: 32px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 617px) {
