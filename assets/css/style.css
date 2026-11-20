@@ -705,6 +705,7 @@ html {
     padding: 64px 24px;
     align-items: flex-start;
     height: auto;
+    width: 100vw;
   }
 
   .footer-txt {
