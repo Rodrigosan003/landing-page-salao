@@ -672,6 +672,7 @@ html {
   .contact {
     /* min-height: 100vh; */
     padding: 80px 24px;
+    width: 100vw;
   }
 
   .contact-content {
