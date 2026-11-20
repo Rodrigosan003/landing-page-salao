@@ -681,6 +681,7 @@ html {
   .contact-text h2 {
     font-size: 30px;
     font-weight: bold;
+    width: 265px;
   }
 
   .footer {
