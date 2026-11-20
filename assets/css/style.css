@@ -677,6 +677,7 @@ html {
 
   .contact-content {
     flex-direction: column;
+    width: 100%;
   }
 
   .contact-text h2 {
