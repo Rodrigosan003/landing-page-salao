@@ -711,6 +711,10 @@ html {
     height: 32px;
     margin-bottom: 24px;
   }
+
+  .footer-txt .sub {
+    margin-bottom: 12px;
+  }
 }
 
 @media (max-width: 617px) {
