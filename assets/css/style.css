@@ -669,6 +669,11 @@ html {
     margin: 0 auto;
   }
 
+  .contact {
+    min-height: 100vh;
+    padding: 80px 24px;
+  }
+
   .contact-content {
     flex-direction: column;
   }
