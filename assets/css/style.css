@@ -691,6 +691,10 @@ html {
     padding-bottom: 32px;
   }
 
+  .contact-address {
+    margin-top: 64px;
+  }
+
   .footer {
     display: none;
   }
