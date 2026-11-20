@@ -702,6 +702,8 @@ html {
 
   .footer {
     flex-direction: column;
+    padding: 64px 24px;
+    align-items: flex-start;
   }
 }
 
