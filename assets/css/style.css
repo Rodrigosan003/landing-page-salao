@@ -666,7 +666,7 @@ html {
 
   .contact {
     padding: 80px 24px;
-    width: 100vw;
+    /* width: 100vw; */
   }
 
   .contact-content {
