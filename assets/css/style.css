@@ -671,8 +671,12 @@ html {
 
   .contact-content {
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     align-items: flex-start;
+  }
+
+  .contact-text {
+    max-width: 100%;
   }
 
   .contact-text h2 {
