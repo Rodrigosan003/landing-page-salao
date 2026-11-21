@@ -614,7 +614,7 @@ html {
 
   .service-card {
     height: 372px;
-    /* width: 327px; */
+
     width: 100%;
     padding: 58px 32px;
     display: flex;
