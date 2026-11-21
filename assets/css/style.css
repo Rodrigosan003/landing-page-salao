@@ -666,12 +666,10 @@ html {
 
   .contact {
     padding: 80px 24px;
-    /* width: 100vw; */
   }
 
   .contact-content {
     flex-direction: column;
-    /* width: 100%; */
     align-items: flex-start;
   }
 
