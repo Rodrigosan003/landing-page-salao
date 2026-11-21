@@ -485,9 +485,6 @@ html {
 
 /* Responsivo */
 
-@media (max-width: 1200px) {
-}
-
 @media (max-width: 768px) {
   #menu-btn {
     display: block;
