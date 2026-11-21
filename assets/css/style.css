@@ -24,7 +24,7 @@ html {
 
 .header {
   height: 72px;
-  width: 100%;
+  width: 100vw;
   /* background: var(--first-background); */
   background: red;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -145,8 +145,9 @@ html {
 .about {
   height: 100vh;
   padding: 160px 121px 160px 0;
-  width: 100vw;
+  max-width: 100vw;
   /* background: var(--second-background); */
+  background: blue;
 }
 
 .about .content {
